@@ -33,6 +33,7 @@ Installation:
 Usage:
 
 .. code-block:: bash
+
     $ cat /etc/cnames
     google.com=duckduckgo.com
     
@@ -42,6 +43,7 @@ Usage:
 Example:
 
 .. code-block:: bash
+
     $ cat /etc/cnames
     google.com=duckduckgo.com
 
