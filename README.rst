@@ -28,20 +28,24 @@ Installation:
 
 .. code-block:: bash
 
-    $ sudo pip install -U local-cname
+    $ sudo pip install -U local-cnames
 
 Usage:
 
 .. code-block:: bash
-
-    $ sudo local-cname FROM_DNS_NAME TO_DNS_NAME
+    $ cat /etc/cnames
+    google.com=duckduckgo.com
+    
+    $ sudo local-cnames
       # press CTRL+C to cancel and restore your old /etc/hosts
 
 Example:
 
 .. code-block:: bash
+    $ cat /etc/cnames
+    google.com=duckduckgo.com
 
-    $ sudo local-cname google.com duckduckgo.com
+    $ sudo local-cnames
     $ ping google.com
 
 

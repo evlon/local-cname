@@ -12,13 +12,13 @@ def readme():
 
 
 setup(
-    name='local-cname',
+    name='local-cnames',
     packages=find_packages(),
-    version='0.3',
+    version='0.4',
     description='Helper script to emulate a local CNAME DNS by writing to /etc/hosts',
     long_description=readme(),
-    author='henning@jacobs1.de',
-    url='https://github.com/hjacobs/local-cname',
+    author='evlion@qq.com',
+    url='https://github.com/evlon/local-cname',
     keywords='dns hosts local',
     license='GNU General Public License v3 (GPLv3)',
     setup_requires=['flake8'],
@@ -33,5 +33,5 @@ setup(
         'Development Status :: 3 - Alpha',
         'Operating System :: POSIX',
     ],
-    entry_points={'console_scripts': ['local-cname = local_cname.cli:main']}
+    entry_points={'console_scripts': ['local-cnames = local_cname.cli:main']}
 )
